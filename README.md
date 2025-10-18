@@ -11,30 +11,31 @@ Test automation suite for Hudl login functionality using Playwright and TypeScri
 ### Installation
 
 ```bash
-npm install
-npx playwright install
+npm init playwright@latest
 ```
 
 ## Environment Setup
 Copy .env.example to .env
 
-Add your Hudl test credentials:
+Replace the below example test credentials with existing Hudl Team/Coach & Fan credentials:
 
 ```bash
-HUDL_EMAIL=your_test_email@example.com
-HUDL_PASSWORD=your_test_password
-HUDL_BASE_URL=https://www.hudl.com
+HUDL_COACH_EMAIL="coach-test-account@example.com"
+HUDL_COACH_PASSWORD="coach-test-password"
+
+HUDL_FAN_EMAIL="fan-test-account@example.com"
+HUDL_FAN_PASSWORD="fan-test-password"
 ```
 
 ## Running Tests
 
 ```bash
 # Run all tests
-npm run test
+npx playwright test
 
 # Run tests in headed mode (visible browser)
-npm run test:headed
+npx playwright test --headed
 
 # View test report
-npm run test:report
+npx playwright show-report
 ```
