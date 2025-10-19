@@ -1,14 +1,15 @@
 # Hudl Automation Project
-Welcome!!
+Welcome to the Huld Automation Project!!
 
-I've included the Test automation suite for Hudl, which covers the basic login functionality using Playwright and TypeScript for two user types: Coach and Fan.
+This Test automation suite is written using Playwright with TypeScript and covers basic login functionality for two user types, i.e, Coach and Fan.
 
-### Prerequisites
+### Here are the Prerequisites that are required to run this project
 - Node.js 16+
 - Chrome browser
 - VS Code with Playwright Test for VSCode (extension)
+- Playwright
 
-### Installation of Playwright
+### How to install Playwright
 
 ```bash
 npm init playwright@latest
