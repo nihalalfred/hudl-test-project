@@ -15,9 +15,10 @@ npm init playwright@latest
 ```
 
 ## Environment Setup
-Copy .env.example to .env
+Please ensure you do the following before running the test suite.
 
-Replace the below example test fake credentials with existing real Hudl Team/Coach & Fan credentials:
+1. Make a Copy of the `.env.example` file and create a new `.env`
+2. Replace the below fake credentials with real Hudl Team/Coach & Fan credentials
 
 ```bash
 HUDL_COACH_EMAIL="coach-test-account@example.com"
